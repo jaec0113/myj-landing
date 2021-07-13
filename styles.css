@@ -21,6 +21,10 @@ a {
   justify-content: center;
 }
 
+.og-image {
+  display: none;
+}
+
 .background-img img {
   position: block;
   height: 100vh;
