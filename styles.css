@@ -19,7 +19,7 @@ a {
 .background-img {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 2.5vh;
 }
 
 .og-image {
@@ -28,8 +28,8 @@ a {
 
 .background-img img {
   position: block;
-  height: 30vh;
-  width: 50%;
+  height: 55vh;
+  width: 70%;
   z-index: -1;
 }
 
@@ -38,7 +38,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 70vh;
+  height: 50vh;
 }
 
 .title-container {
@@ -108,12 +108,11 @@ footer {
 
 @media(max-width: 1000px) {
   .background-img img {
-    height: 35vh;
+    height: 45vh;
     width: 70%;
   }
   .wrapper {
     height: 55vh;
-    margin-top: 1rem;
   }
   .host-container {
     margin-bottom: 1rem;
@@ -149,10 +148,10 @@ footer {
     height: 30vh;
   }
   .wrapper {
-    height: 60vh;
+    height: 20vh;
   }
   .title-container h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 70%;
   }
   .link-container a {
@@ -160,18 +159,23 @@ footer {
     font-size: 2.5rem;
     margin: 0 1.75em;
   }
+  .btn-container {
+    height: 35vh;
+  }
   .button{
     font-size: 1rem;
-    margin: 1em;
+    margin: 0.5em;
     padding: 0.5em;
   } 
 }
 
 @media(max-width: 500px) {
+  .background-img {
+    height: 24.5vh;
+  }
   .background-img img {
-    margin-top: 5vh;
-    height: 20vh;
-    width: 80vw;
+    height: 22vh;
+    width: 75vw;
   }
   .wrapper {
     height: 25vh;
@@ -194,16 +198,13 @@ footer {
     margin: 0 .5em;
   }
   .btn-container {
-    height: 35vh;
+    height: 33vh;
     margin-top: 1.5rem;
     justify-content: center;
   }
   .button{
-    font-size: 1rem;
+    font-size: .8rem;
     margin: 0.5em;
     padding: 0.5em;
-  }
-  footer {
-    margin: 1em 0;
   }
 }
