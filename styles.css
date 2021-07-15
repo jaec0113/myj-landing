@@ -8,6 +8,7 @@
 
 body {
   background-image: linear-gradient(45deg, #67F663, #99d8ff); 
+  background-size: cover;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -178,7 +179,7 @@ footer {
     width: 75vw;
   }
   .wrapper {
-    height: 25vh;
+    height: 20vh;
   }
   .host-container {
     margin: 1.5rem 0 0 0;
